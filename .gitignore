@@ -1,3 +1,12 @@
+*.*~
+
+# everything except .gitignore in build dir
+build/*
+!build/.gitignore
+
+# Prerequisites
+*.d
+
 # Compiled Object files
 *.slo
 *.lo
