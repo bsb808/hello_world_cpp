@@ -1,8 +1,11 @@
 *.*~
+*~
 
 # everything except .gitignore in build dir
 build/*
 !build/.gitignore
+doc/*
+!doc/.gitignore
 
 # Prerequisites
 *.d
